@@ -1,0 +1,141 @@
+
+
+.container_for_all{
+    width: 63%;
+    margin: 0 auto;
+    border: 3px solid black;
+    background-color: red;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+    
+}
+
+/* #calculator_title_animation{
+    animation: calculator_title_animation ;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes calculator_title_animation{
+    0%{color: none;}
+    30%{color: aqua;}
+    50%{color: snow;}
+    70%{color: chartreuse;}
+    90%{color: aqua;}
+    100%{color: rgba(0, 0, 0, 0);}
+    
+} */
+
+
+
+.first_row{
+    margin: 0 auto;
+display: flex;
+width: 90%;
+font-size: larger;
+font-weight: bold;
+background-color: aquamarine;
+justify-content: space-evenly;
+
+border: 3px solid orange;
+
+}
+
+.first_row button {
+    width: 25%;
+    height: 25%;
+    outline: 1px solid black;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.second_row button {
+    width: 25%;
+    height: 25%;
+    outline: 1px solid black;
+    font-size: large;
+    font-weight: bolder;    
+
+}
+
+.third_row button {
+    width: 25%;
+    height: 25%;
+    outline: 1px solid black;
+    font-size: large;
+    font-weight: bolder;    
+
+}
+
+.fourth_row button {
+    width: 25%;
+    height: 25%;
+    outline: 1px solid black;
+    font-size: large;
+    font-weight: bolder;    
+
+}
+
+button:hover{
+ background-color: yellowgreen;
+}
+
+
+.first_row button:hover{
+    background-color: aqua;
+}
+
+
+.second_row , .third_row , .fourth_row{
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    border: 3px solid purple;
+    font-size: larger;
+    font-weight: bold;
+    background-color: olivedrab;
+    justify-content: space-evenly;
+    
+    
+    }
+
+.fifth_row{
+    width: 90%;
+    display: flex;
+    border: 3px solid chocolate;
+    font-weight: bold;
+    background-color: hotpink;
+    justify-content: space-evenly;
+    font-size: large;
+    margin: 0 auto;
+}
+
+.fifth_row button{
+    width: 34%;
+    height: 2em;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.fifth_row button:hover{
+    background-color: rgb(245, 245, 99);
+
+}
+
+
+@media (min-width:50px) and (max-width:800px){
+    .container_for_all{
+        width: 85%;
+        margin: 0 auto;
+        border: 3px solid black;
+        background-color: red;
+        margin-top: 20%;
+        margin-bottom: 20%;
+        
+    }
+    
+}
+
+

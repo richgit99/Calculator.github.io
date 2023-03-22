@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Calculator</title>
+    <link rel="shortcut icon" href="cal_logo2.jpg" type="image/x-icon">
+</head>
+<link rel="stylesheet" href="Calculator.css">
+
+
+<body style="height:81vh;background:linear-gradient(rgb(176, 226, 77),rgb(167, 233, 167),lightyellow,rgb(250, 250, 70));background-repeat: no-repeat;">
+    
+
+    <div class="container_for_all">
+
+        <h2 style="text-align: center;" id="calculator_title_animation"> <big>Calculator</big></h2>
+        
+        <div class="display_numbers" style="width: 95%;height: 40%;background-color: red;border: 0px solid black;
+        margin: 0 auto;display: block;">
+
+  
+
+<h2 style="background-color: white;
+padding: 0.3em;;text-align: center;border: 1px solid chartreuse;height: 2.1em;" id="result_of_calculation">&nbsp;</h2>
+   <!--- <input type="text" style="width: 95%;margin: 0 auto;height: 3em;display: inline-block;"> -->
+   
+<br>
+
+<div style="padding-left: 2em;;">
+
+</div>
+
+
+        </div>
+<br>
+        <div class="first_row">
+
+            <button id="+">+</button>
+            <button id="x">x</button>
+            <button id="/">/</button>
+            <button id="-">-</button>
+        </div>
+        <br>
+        <div class="second_row">
+
+            <button id="1">1</button>
+            <button id="2">2</button>
+            <button id="3">3</button>
+            <button id="4">4</button>
+
+
+        </div>
+
+
+        
+        <div class="third_row">
+
+            <button id="5">5</button>
+
+            <button id="6">6</button>
+            <button id="7">7</button>
+            <button id="8">8</button>
+
+
+        </div>
+
+        <div class="fourth_row">
+
+            <button id="9">9</button>
+
+            <button id="0">0</button>
+            <button id=".">.</button>
+            <button id="=">=</button>
+
+
+        </div>
+
+<br>
+<div class="fifth_row">
+
+    <button id="backspace_button" onclick="backspace_button_of_js()" style="width: 40%;">Backspace</button>
+
+    <button onclick="clear()" id='clear_button' style="width: 27%;">Clear</button>
+
+    <button id="submit_button" onclick="submit_button_of_js()">Submit</button>
+    
+
+
+</div>
+
+
+    </div>
+    
+
+    <script src="Calculator.js"></script>
+</body>
+
+</html>
+
